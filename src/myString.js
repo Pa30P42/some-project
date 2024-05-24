@@ -4,13 +4,13 @@ export class Mystring {
     this.value = value;
   }
   remove(index) {
-    if (index < 0 || index >= this.value.length) {
+    if (!index < 0 || index >= this.value.length) {
       return this.value;
     }
 
-    console.log("this.value :>> ", this.value);
-    console.log("this.value :>> ", this.value);
-    return this.value.slice(index, this.value.length);
+    // console.log("this.value :>> ", this.value);
+    // console.log("this.value :>> ", this.value);
+    // return this.value.slice(index, this.value.length);
   }
 }
 
