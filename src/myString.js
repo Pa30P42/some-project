@@ -9,6 +9,7 @@ export class Mystring {
     }
 
     console.log("this.value :>> ", this.value);
+    console.log("this.value :>> ", this.value);
     return this.value.slice(index, this.value.length);
   }
 }
